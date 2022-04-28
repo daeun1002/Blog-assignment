@@ -1,0 +1,30 @@
+.formboxgroup1{
+    margin-bottom:15px;
+}
+#menuselect{
+    width:100px;
+    height:30px;
+    padding:2px;
+}
+.writeInput{
+    width:400px;
+    margin:0 30px;
+    padding:2px;
+}
+.fa-plus{
+    display:inline-block;
+    width:80px;
+    height:20px;
+    text-align:center;
+    cursor:pointer;
+}
+.btnbox{
+    display:flex;
+    justify-content:flex-end;
+    margin:20px 0;
+}
+.writeSubmit{
+    border-radius:5px;
+    padding:5px 20px;
+    background:rgb(158, 192, 226);
+}
