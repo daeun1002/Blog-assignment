@@ -1,0 +1,17 @@
+.studycontent{
+    flex:0 0 28%;
+    max-width:28%;
+    height:300px;
+    border:1px solid #efefef;
+    border-radius:10px;
+    box-shadow:3px 3px 5px #888;
+    padding:20px;
+    margin-bottom:50px;
+}
+.studycontent p{
+    margin:0;
+    padding:10px 0;
+}
+.studycontent p:not(:last-child){
+    border-bottom:1px dashed #333;
+}
