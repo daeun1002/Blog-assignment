@@ -14,6 +14,7 @@ import {
 } from "react-router-dom";
 
 const App = () => {
+  const user = false;
   return (
     <BrowserRouter>
       <Header />
@@ -21,10 +22,10 @@ const App = () => {
       <NavBar />
       <Routes>
         <Route path="/DailyCont/*" element={<DailyCont />} />
-        <Route path="/StudyCont/*" element={<StudyCont />} />
-        <Route path="/TravelCont/*" element={<TravelCont />} />
-        <Route path="/HobbyCont/*" element={<HobbyCont />} />
-        <Route path="/WriteForm/*" element={<WriteForm />} />
+        <Route path="/StudyCont/*" element={user ? <DailyCont /> : <StudyCont />} />
+        <Route path="/TravelCont/*" element={user ? <DailyCont /> : <TravelCont />} />
+        <Route path="/HobbyCont/*" element={user ? <DailyCont /> : <HobbyCont />} />
+        <Route path="/WriteForm/*" element={user ? <DailyCont /> : <WriteForm />} />
       </Routes>
     </BrowserRouter>
   )

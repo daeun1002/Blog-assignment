@@ -9,3 +9,14 @@ a, a:hover{
   color:#333;
   text-decoration:none;
 }
+
+/* dailypost */
+
+ul.dailyul li{
+  border-bottom:1px solid #333;
+  align-items:center;
+  height:50px;
+}
+a.daily-title{
+  display:block;
+}
