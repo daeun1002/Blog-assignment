@@ -1,5 +1,5 @@
 const dailylist = [
-    { dailyarray : [
+    {dailyarray : [
     {id:1, title:"제목1입니다.", date:"2022.04.28"},
     {id:2, title:"제목2입니다.", date:"2022.04.27"},
     {id:3, title:"제목3입니다.", date:"2022.04.25"},

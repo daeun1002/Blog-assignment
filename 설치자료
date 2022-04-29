@@ -1,9 +1,13 @@
 wysiwyg 사용
+
 1. npm install react-draft-wysiwyg draft-js react react-dom
  ** 만약 1번에서 오류가 난다면 yarn부터 설치
+
 2. npm install -g yarn
  ** 설치 확인 : yarn --version
+
 3. yarn add react-draft-wysiwyg draft-js react react-dom
+
 4. yarn start
  ** 만약 yarn start가 안되면
     1. PowerShell을 관리자 권한으로 실행  

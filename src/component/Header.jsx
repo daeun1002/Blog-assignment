@@ -1,7 +1,7 @@
 import React from 'react'
 import './header.css'
 import { Instagram, Twitter, Facebook } from '@mui/icons-material';
-// 안되면 npm install @mui/material @emotion/react @emotion/styled & npm install @mui/icons-material 설치
+// 안되면 npm install @mui/material @emotion/react @emotion/styled & npm install @mui/icons-material 설치하기.
 
 const Header = () => {
   return (

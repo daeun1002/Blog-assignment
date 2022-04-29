@@ -21,7 +21,7 @@ const App = () => {
       <Section />
       <NavBar />
       <Routes>
-        <Route path="/DailyCont/*" element={<DailyCont />} />
+        <Route path="/DailyCont/*" element={user ? <DailyCont /> : <DailyCont />} />
         <Route path="/StudyCont/*" element={user ? <DailyCont /> : <StudyCont />} />
         <Route path="/TravelCont/*" element={user ? <DailyCont /> : <TravelCont />} />
         <Route path="/HobbyCont/*" element={user ? <DailyCont /> : <HobbyCont />} />
